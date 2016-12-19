@@ -1,0 +1,7 @@
+elephantly_user_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: ElephantlyUserBundle:Default:index }
+
+hermes_user_create:
+    path:     /user/babar
+    defaults: { _controller: ElephantlyUserBundle:Default:edit }
